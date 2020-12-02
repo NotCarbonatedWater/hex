@@ -1,4 +1,4 @@
-HEX = search_s.hex sort_s.hex
+HEX = search_s.hex sort_s.hex first_s.hex
 
 all: ${HEX}
 
