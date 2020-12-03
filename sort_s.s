@@ -1,6 +1,11 @@
-.global sort_s
-
 sort_s:
+    mov r0, #16
+    mov r1, #4
+    mov r2, #32
+    mov r3, #2
+    mov r4, #8
+    mov r5, #5
+
 	mov ip, r0
 	mov r3, #0 			@ index
 	mov r6, #0			@ i

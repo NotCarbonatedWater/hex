@@ -1,5 +1,3 @@
-.global search_s
-
 search_s: 
 	@ r0 - *arr @ r1 - left @ r2 - right @ r3 - x
 	mov r4, #1 		@ initializes "int mid"
@@ -17,7 +15,7 @@ loop:
 	add r4, r4, r1		@ + left	
 	
 	@ if (arr[mid] == x)
-	ldrb r5, [r0, r4, lsl #2]
+	ldr r5, [r0, r4, lsl #2]
 	cmp r5, r3 
 	beq done
 	
