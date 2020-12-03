@@ -1,5 +1,3 @@
-.global fact_s
-
 fact_s:
     sub sp, sp, #8
     str lr, [sp]

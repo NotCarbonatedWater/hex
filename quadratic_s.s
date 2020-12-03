@@ -1,4 +1,3 @@
-.global quadratic_s
 quadratic_s:
     mul r12, r0, r0
     mul r1, r12, r1

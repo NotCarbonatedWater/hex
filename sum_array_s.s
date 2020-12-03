@@ -1,5 +1,3 @@
-.global sum_array_s
-
 sum_array_s:
     mov r2, #0
     mov r3, #0
